@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGS.LIB.TscPrinter", "SGS.LIB.TscPrinter\SGS.LIB.TscPrinter.csproj", "{11CD9FF7-B165-4B8C-AC91-0CA268D16A0E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{FB3E4533-AB7F-40D1-AD0C-547248538F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGS.OAD.TscPrinter", "SGS.OAD.TscPrinter\SGS.OAD.TscPrinter.csproj", "{0D4621DE-76FF-4A13-AC74-0A044808285A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{11CD9FF7-B165-4B8C-AC91-0CA268D16A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11CD9FF7-B165-4B8C-AC91-0CA268D16A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11CD9FF7-B165-4B8C-AC91-0CA268D16A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11CD9FF7-B165-4B8C-AC91-0CA268D16A0E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FB3E4533-AB7F-40D1-AD0C-547248538F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FB3E4533-AB7F-40D1-AD0C-547248538F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB3E4533-AB7F-40D1-AD0C-547248538F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB3E4533-AB7F-40D1-AD0C-547248538F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4621DE-76FF-4A13-AC74-0A044808285A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4621DE-76FF-4A13-AC74-0A044808285A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4621DE-76FF-4A13-AC74-0A044808285A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4621DE-76FF-4A13-AC74-0A044808285A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
