@@ -9,7 +9,7 @@
 
     <!-- NuGet Package Metadata -->
     <PackageId>SGS.OAD.TscPrinter</PackageId>
-    <Version>1.1.2</Version>
+    <Version>1.1.3</Version>
     <Authors>Brian</Authors>
     <Owners>OAD</Owners>
     <Company>SGS Taiwan Ltd.</Company>

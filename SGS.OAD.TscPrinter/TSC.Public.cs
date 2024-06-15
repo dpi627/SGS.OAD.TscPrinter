@@ -64,8 +64,8 @@ namespace SGS.OAD.TscPrinter
         /// <param name="narrow">設定條碼窄bar比例因子 (詳細請參考TSPL)</param>
         /// <param name="wide">設定條碼寬bar比例因子 (詳細請參考TSPL)</param>
         /// <param name="data">條碼內容 (輸出的內容字串，例如報告編號)</param>
-        public static int Barcode(int x, int y, string date, int narrow = 1, int wide = 1, int height = 50, int type = 128, int readable = 0, int rotation = 0) =>
-            barcode($"{x}", $"{y}", $"{type}", $"{height}", $"{readable}", $"{rotation}", $"{narrow}", $"{wide}", $"{date}");
+        public static int Barcode(int x, int y, string data, int narrow = 1, int wide = 1, int height = 50, int type = 128, int readable = 0, int rotation = 0) =>
+            barcode($"{x}", $"{y}", $"{type}", $"{height}", $"{readable}", $"{rotation}", $"{narrow}", $"{wide}", $"{data}");
 
         /// <summary>
         /// 列印 QR Code (使用 sendcommand)
