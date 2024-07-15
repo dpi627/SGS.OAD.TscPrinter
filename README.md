@@ -1,9 +1,10 @@
-![](https://img.shields.io/badge/owner-OAD-lightgray) 
-![](https://img.shields.io/badge/type-Library-orange) 
-![](https://img.shields.io/badge/v-1.1.3-blue) 
-
-![](https://img.shields.io/badge/vc-Gitea-609531?logo=gitea)
-![](https://img.shields.io/badge/Github-555?logo=github)
+![](https://img.shields.io/badge/SGS-OAD-orange) 
+![](https://img.shields.io/badge/proj-TscPrinter-purple) 
+![](https://img.shields.io/badge/-8-512BD4?logo=dotnet)
+![](https://img.shields.io/badge/-NuGet-004880?logo=nuget)
+![](https://img.shields.io/badge/-Git-666?logo=git)
+![](https://img.shields.io/badge/-GitHub-666?logo=github)
+![](https://img.shields.io/badge/-Gitea-666?logo=gitea)
 
 # 📦SGS.OAD.TscPrinter
 
