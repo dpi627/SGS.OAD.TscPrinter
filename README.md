@@ -23,30 +23,22 @@
 
 ## 🔧安裝套件
 
-新增 NuGet 來源，即可於 Visual Studio 內安裝
+新增 NuGet 來源，即可於 Visual Studio 內安裝 NuGet 套件
 
 ### 新增 NuGet 來源
 
-#### 於 Visual Stdio 加入
+新增 NuGet 來源主要有兩種方式，可於 VS 內設定或加入組態檔
+
+### 1. 於 Visual Stdio 加入
 
 - Tools > Options > NuGet Package Manager > Package Sources > +
-- 填寫 Name 與 Source `\\twfs007\SGSSHARE\OAD\nuget\`
+- 填寫 Name 與 Source
 
-#### 使用 nuget.config
+### 2. 加入 `nuget.config` ()
 
-於方案(solution)根目錄新增一個檔案 `nuget.config`，內容為 `xml`
+於方案(solution)根目錄新增組態檔 `nuget.config`
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <packageSources>
-    <add key="OAD" value="\\twfs007\SGSSHARE\OAD\nuget\" />
-  </packageSources>
-</configuration>
-```
-檔案結構舉例
-
-```powershell
+```sh
 📁solution
     📄*.sln
     📄nuget.config #放在這裡
@@ -56,13 +48,28 @@
     ...
 ```
 
-### 安裝 Nuget Package
+內容如下，請自行替換 `{source-name}` 與 `{source-path}`
 
-完成上述來源設定後，即可透過 Nuget Package Manger 安裝
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <add key="{source-name}" value="{source-path}" />
+  </packageSources>
+</configuration>
+```
+
+## 📦安裝 NuGet Package
+
+### NuGet Package Manger
+
+完成上述來源設定後，即可透過 NuGet Package Manger 搜尋自訂來源套件
 
 ![](asset/nuget-package-manager.png)
 
-或者透過指令安裝
+### CLI
+
+也可透過指令安裝
 
 ```powershell
 Install-Package SGS.OAD.TscPrinter
@@ -71,6 +78,23 @@ Install-Package SGS.OAD.TscPrinter
 安裝完畢後，專案應該會長這樣
 
 ![](asset/project-packages.png)
+
+## ⚠️測試專案組態檔
+
+可將上述組態設定
+
+```xml
+<add key="{source-name}" value="{source-path}" />
+```
+
+改為
+
+```xml
+<add key="SelfTest" value="SGS.OAD.TscPrinter\bin\Debug" />
+```
+
+- 套件專案右鍵執行 `Pack`
+- 測試專案便可於 NuGet Package Manager 找到套件
 
 ## ✅測試套件
 
