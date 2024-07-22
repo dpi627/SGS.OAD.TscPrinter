@@ -20,7 +20,7 @@
     <IncludeContentInPack>true</IncludeContentInPack>
     <ContentTargetFolders>content</ContentTargetFolders>
     <PackageTags>TSC, printer, label</PackageTags>
-    <PackageProjectUrl>http://twoadcode:3000/brian_li/SGS.OAD.TscPrinter</PackageProjectUrl>
+    <PackageProjectUrl>http://twvoadtpw100004/brian_li/SGS.OAD.TscPrinter</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageCopyright>Copytight © 2024 SGS Taiwan Ltd.</PackageCopyright>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
