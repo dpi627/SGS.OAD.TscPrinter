@@ -6,8 +6,10 @@ internal class Program
 {
     static void Main()
     {
-        //TSC.About(); // 顯示 DLL 版本(可測試串 DLL 是否正常)
-        PrintLimsLabelFormat1();
+        TSC.About(); // 顯示 DLL 版本(可測試串 DLL 是否正常)
+
+        // 確認街上印表機才可啟用測試，注意印表機名稱要一致
+        //PrintLimsLabelFormat1();
     }
 
     /// <summary>
