@@ -34,7 +34,7 @@
 - Tools > Options > NuGet Package Manager > Package Sources > +
 - 填寫 Name 與 Source
 
-### 2. 加入 `nuget.config` ()
+### 2. 加入 `nuget.config` (建議)
 
 於方案(solution)根目錄新增組態檔 `nuget.config`
 
