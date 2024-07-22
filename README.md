@@ -27,6 +27,8 @@
 
 ### 新增 NuGet 來源
 
+目前套件暫放於 `\\twfs007\SGSSHARE\OAD\nuget\`
+
 新增 NuGet 來源主要有兩種方式，可於 VS 內設定或加入組態檔
 
 ### 1. 於 Visual Stdio 加入
