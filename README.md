@@ -6,6 +6,8 @@
 ![](https://img.shields.io/badge/-GitHub-666?logo=github)
 ![](https://img.shields.io/badge/-Gitea-666?logo=gitea)
 
+![](./asset/icon.png)
+
 # 📦SGS.OAD.TscPrinter
 
 - 封裝 TSC 標籤印表機函式庫，方便快速測試與開發標籤列印應用
