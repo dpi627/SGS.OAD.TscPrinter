@@ -29,6 +29,8 @@
 
 ### 新增 NuGet 來源
 
+目前套件暫放於 `\\twfs007\SGSSHARE\OAD\nuget\`
+
 新增 NuGet 來源主要有兩種方式，可於 VS 內設定或加入組態檔
 
 ### 1. 於 Visual Stdio 加入
@@ -36,7 +38,7 @@
 - Tools > Options > NuGet Package Manager > Package Sources > +
 - 填寫 Name 與 Source
 
-### 2. 加入 `nuget.config` ()
+### 2. 加入 `nuget.config` (建議)
 
 於方案(solution)根目錄新增組態檔 `nuget.config`
 

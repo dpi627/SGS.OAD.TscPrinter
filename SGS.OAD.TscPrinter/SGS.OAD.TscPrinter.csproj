@@ -5,11 +5,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
     <!-- NuGet Package Metadata -->
     <PackageId>SGS.OAD.TscPrinter</PackageId>
-    <Version>1.1.3</Version>
+    <Version>1.1.4</Version>
     <Authors>Brian</Authors>
     <Owners>OAD</Owners>
     <Company>SGS Taiwan Ltd.</Company>
@@ -18,10 +20,12 @@
     <IncludeContentInPack>true</IncludeContentInPack>
     <ContentTargetFolders>content</ContentTargetFolders>
     <PackageTags>TSC, printer, label</PackageTags>
-    <PackageProjectUrl>http://twoadcode:3000/brian_li/SGS.OAD.TscPrinter</PackageProjectUrl>
+    <PackageProjectUrl>http://twvoadtpw100004/brian_li/SGS.OAD.TscPrinter</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageCopyright>Copytight © 2024 SGS Taiwan Ltd.</PackageCopyright>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
